@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6bae8e31062f0844180fbcfd36e736e8
+guid: 5c9b7fa66eec50b4490017a0a9098569
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -11,8 +11,8 @@ MonoImporter:
   assetBundleVariant: 
 AssetOrigin:
   serializedVersion: 1
-  productId: 75417
-  packageName: Speech Bubble Manager
-  packageVersion: 1.5.0
-  assetPath: Assets/Viking Crew Tools/UI/SpeechBubbleManager/code/SpeechBubbleTmp.cs
-  uploadId: 596222
+  productId: 183370
+  packageName: Feel
+  packageVersion: 5.5
+  assetPath: Assets/Feel/MMFeedbacks/MMFeedbacks/Feedbacks/MMF_ImageSprite.cs
+  uploadId: 759320

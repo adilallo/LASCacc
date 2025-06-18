@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3987315104519372787}
   - component: {fileID: 1603791559424555462}
   m_Layer: 6
-  m_Name: Thought_Player
+  m_Name: Thought_Player_Close
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

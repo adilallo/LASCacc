@@ -14,8 +14,9 @@ namespace NonPlayable.Goap
     {
         Sanguine,
         Choleric,
-        Melancholic,
-        Phlegmatic
+        Phlegmatic,
+        Melancholic
+        
     }
 
     public class HumorBrain : MonoBehaviour

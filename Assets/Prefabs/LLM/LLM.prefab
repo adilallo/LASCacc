@@ -47,10 +47,10 @@ MonoBehaviour:
   advancedOptions: 1
   remote: 0
   port: 13333
-  numThreads: -1
-  numGPULayers: 20
+  numThreads: 8
+  numGPULayers: 26
   debug: 0
-  parallelPrompts: -1
+  parallelPrompts: 2
   dontDestroyOnLoad: 1
   contextSize: 8192
   batchSize: 512

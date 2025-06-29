@@ -224,7 +224,9 @@ MonoBehaviour:
         DebugActive: 0
         Mode: 0
         AnimateScaleTarget: {fileID: 0}
+        MovementMode: 0
         AnimateScaleDuration: 0.3
+        AnimatePositionSpeed: 1
         RemapCurveZero: 0
         RemapCurveOne: 0.4
         Offset: 0
@@ -449,17 +451,18 @@ MonoBehaviour:
         DebugActive: 0
         TargetGameObject: {fileID: 0}
         ExtraTargetGameObjects: []
+        IgnorePlayDirection: 0
         SetStateOnInit: 0
         StateOnInit: 1
         SetStateOnPlay: 1
         StateOnPlay: 0
-        SetStateOnStop: 1
+        SetStateOnStop: 0
         StateOnStop: 1
         SetStateOnReset: 0
         StateOnReset: 1
         SetStateOnSkip: 0
         StateOnSkip: 1
-        SetStateOnPlayerComplete: 0
+        SetStateOnPlayerComplete: 1
         StateOnPlayerComplete: 1
     - rid: 1543062630025658369
       type: {class: MMF_Rotation, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
@@ -538,7 +541,9 @@ MonoBehaviour:
         AnimateRotationTarget: {fileID: 0}
         Mode: 0
         RotationSpace: 0
+        MovementMode: 0
         AnimateRotationDuration: 6
+        AnimatePositionSpeed: 1
         RemapCurveZero: 0
         RemapCurveOne: 360
         AnimateX: 0

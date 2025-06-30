@@ -61,7 +61,7 @@ MonoBehaviour:
   grammarJSON: 
   cachePrompt: 1
   seed: -1
-  temperature: 1.45
+  temperature: 1.4
   topK: 80
   topP: 0.94
   minP: 0.05

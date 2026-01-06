@@ -76,3 +76,6 @@ crashlytics-build.properties
 # LLM Models
 /[Aa]ssets/[Ss]treamingAssets/undreamai-v1.2.6-llamacpp.meta
 /[Aa]ssets/[Ss]treamingAssets/undreamai-v1.2.6-llamacpp/*
+
+# DMCA: FronkonGames content removed from git history but kept locally
+/[Aa]ssets/[Ff]ronkonGames/

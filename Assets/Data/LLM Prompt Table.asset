@@ -14,14 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rows:
   - actionId: WanderAction
-    prompt: You are wandering, endlessly playing out the agonistic game of your search.
-      Rules translate the pain of violent conflict into the pleasures of disputation,
-      but there is no win condition for you, only the cost of the next action.
+    prompt: You wander lacking any win condition.
   - actionId: RestAction
-    prompt: You are attempting to rest but can find no peace as your mind attempts
-      to understand the source of your cycle of pain. You have no choice but to restlessly
-      continue.
+    prompt: "You unsuccessfully attempt to rest.\r\r\r"
   - actionId: WorkAction
-    prompt: You are in massive debt.
+    prompt: "You work to service an unpayable debt.\r"
   - actionId: EatAction
-    prompt: You are insatiably hungry.
+    prompt: You cannot satisfy your hunger.

@@ -81,18 +81,9 @@ namespace NonPlayable.Goap.Sensors
                 if (!NavMesh.SamplePosition(guess, out var hit, SampleDist, NavMesh.AllAreas))
                     continue;
 
-                // path test
-                var path = new NavMeshPath();
-                if (NavMesh.CalculatePath(currentPos, hit.position, NavMesh.AllAreas, path) &&
-                    path.status == NavMeshPathStatus.PathComplete)
-                {
-                    // reuse PositionTarget if possible
-                    return previous is PositionTarget prev ? prev.SetPosition(hit.position)
-                                                            : new PositionTarget(hit.position);
-                }
-
-                // failed → pick a fresh random direction next iteration
-                dir = Random.insideUnitSphere.WithY(0).normalized;
+                var pos = hit.position;
+                return previous is PositionTarget p ? p.SetPosition(pos)
+                                                   : new PositionTarget(pos);
             }
 
             // fallback to staying put

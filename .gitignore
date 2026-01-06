@@ -79,3 +79,4 @@ crashlytics-build.properties
 
 # DMCA: FronkonGames content removed from git history but kept locally
 /[Aa]ssets/[Ff]ronkonGames/
+/[Aa]ssets/[Ff]ronkonGames.meta
